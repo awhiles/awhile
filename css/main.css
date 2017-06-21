@@ -34,4 +34,9 @@
 .footer .foot .foot-icon .footi2 { background: url(../img/foot-sinaH.png) no-repeat; background-size: 100%; }
 .footer .foot .foot-icon .footi3 { background: url(../img/foot-wechatH.png) no-repeat; background-size: 100%; }
 
+/* home newest */
+.newest { width: 960px; height: 480px; margin: 50px auto 150px; }
+.newest div { padding: 0; }
+.newest div img { width: 100%; }
+
 /*# sourceMappingURL=main.css.map */
