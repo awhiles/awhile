@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en" ng-app="app">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+    <meta name="viewport" content="initial-scale=1, maximum-scale=1, user-scalable=no, width=device-width">
+    <meta name="format-detection" content="telephone=no">
+    <title>电台 | 片刻网-用文字交换世界</title>
+    <link href="https://qnstatic.pianke.me/public/assets/favicon.ico" rel="icon">
+    <link rel='stylesheet' href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/main.css"/>
+    <script type="text/javascript" src="lib/jquery/jquery.min.js" ></script>
+    <script type="text/javascript" src="lib/bootstrap.min.js"></script>
+    <script src="lib/angular/angular.min.js"></script>
+    <script type="text/javascript" src="lib/angular/angular-ui-router.min.js"></script>
+    <script type="text/javascript" src="router.js"></script>
+    <script type="text/javascript" src="directives.js"></script>
+</head>
+<body>
+<div ng-include="'template/header.html'"></div>
+<div ui-view="main">
+</div>
+<div ng-include="'template/footer.html'"></div>
+</body>
+</html>
