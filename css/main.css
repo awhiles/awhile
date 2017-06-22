@@ -4,7 +4,7 @@
 .navbar { position: relative; width: 100%; min-width: 1300px; min-height: 90px; margin: 0 auto 0; background: rgba(255, 255, 255, 0.95); border: 1px solid transparent; -ms-box-shadow: 0 1px 4px 0 #ececec; -webkit-box-shadow: 0 1px 4px 0 #ececec; -moz-box-shadow: 0 1px 4px 0 #ececec; box-shadow: 0 1px 4px 0 #ececec; }
 
 .navbar-nav { height: 90px; }
-.navbar-nav li { width: 100px; height: 90px; text-align: center; line-height: 90px; }
+.navbar-nav li { width: 102px; height: 90px; text-align: center; line-height: 90px; }
 .navbar-nav li a { color: #333; padding: 26px; margin-top: 9px; font-size: 16px; }
 .navbar-nav li a:hover, .navbar-nav li a:visited { background: #fff; }
 .navbar-nav li .editor { display: inline-block; cursor: pointer; width: 44px; height: 44px; border: 1px solid #57ad68; border-radius: 50%; vertical-align: middle; overflow: hidden; margin-right: 50px; }
