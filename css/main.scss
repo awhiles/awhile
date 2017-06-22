@@ -113,12 +113,6 @@
     }
   }
 }
-
-//footer
-.footer{
-  clear: both;
-  height: 118px;
-  min-width: 1200px;
 /* common footer nav */
 .footer{
   clear: both;
@@ -128,38 +122,6 @@
   background-color: #1a1818;
   color: #666;
   font-size: 12px;
-  .foot{
-    .foot-logo{
-      width:100px;
-      margin-top:35px;
-      margin-right: 20px;
-    }
-    .foot-link{
-      display: inline-block;
-      vertical-align: top;
-      height:50px;
-      margin-top: 38px;
-      ul{
-        height:25px;
-        padding-left: 0;
-        margin-bottom: 0;
-        li{
-          list-style: none;
-          float:left;
-          line-height: 25px;
-          margin-right: 20px;
-          text-align: left;
-        }
-      }
-      p{
-        margin: 0 !important;
-      }
-    }
-    .foot-icon{
-
-    }
-  }
-}
 }
 .foot{
   width: 1300px;
