@@ -254,5 +254,46 @@
   .radioStatus span {
     display: block;
     text-align: center; }
+.newest-all, .home-read-all { width: 100%; min-width: 1300px; }
+
+.newest { width: 960px; height: 480px; margin: 50px auto 150px; }
+.newest div { position: relative; padding: 0; overflow: hidden; }
+.newest div img { width: 100%; transition: all 0.5s; }
+.newest div a:hover img { -ms-transform: scale(1.1, 1.1); -webkit-transform: scale(1.1, 1.1); -moz-transform: scale(1.1, 1.1); transform: scale(1.1, 1.1); -ms-transition: transform 400ms linear; -webkit-transition: transform 400ms linear; -moz-transition: transform 400ms linear; transition: transform 400ms linear; }
+.newest div a:hover p { filter: alpha(opacity=100); -moz-opacity: 1; -khtml-opacity: 1; opacity: 1; }
+
+.read-status, .radio-status { transition: all 0.5s; filter: alpha(opacity=0); -moz-opacity: 0; -khtml-opacity: 0; opacity: 0; width: 100%; height: 80px; background: rgba(0, 0, 0, 0.4); position: absolute; left: 0; bottom: 0; margin: 0; }
+.read-status i, .radio-status i { display: block; width: 30px; height: 1px; background: #fff; position: absolute; top: 20px; left: 20px; }
+.read-status span, .radio-status span { line-height: 100px; margin-left: 20px; color: #fff; font-size: 14px; }
+
+.radio-status { height: 100%; }
+.radio-status i { position: relative; left: 0; top: 25px; margin: auto; }
+.radio-status em { display: block; width: 82px; height: 82px; margin: 30% auto 0; background: url(../img/play-icon.png) no-repeat; background-size: 100%; }
+.radio-status span { display: block; text-align: center; }
+
+/* home read */
+.home-read { width: 960px; margin: 0 auto 50px; }
+
+.home-title { font-size: 15px; margin-bottom: 40px; }
+.home-title i { display: inline-block; width: 18px; height: 18px; margin-right: 7px; vertical-align: middle; background: #333333; }
+
+.home-read-item { padding: 0; }
+.home-read-item li { list-style: none; width: 100%; height: 216px; background: #fff; margin-bottom: 10px; border: 1px solid #e8e8e8; -ms-box-sizing: content-box; -webkit-box-sizing: content-box; -moz-box-sizing: content-box; box-sizing: content-box; }
+
+.read-content { position: relative; height: 216px; width: 640px; float: left; padding-left: 20px; font-weight: 200; }
+.read-content .read-title a { color: #333; font-size: 24px; text-decoration: none; }
+.read-content .read-title a:hover { color: #57ad68; }
+.read-content .read-author a { color: #333; text-decoration: none; }
+.read-content .read-author a:hover { color: #57ad68; }
+.read-content .read-mess { width: 98%; display: -webkit-box; -webkit-box-orient: vertical; -webkit-line-clamp: 2; overflow: hidden; }
+.read-content .read-mess i { display: block; width: 30px; height: 1px; background: #333; margin: 10px 0; }
+.read-content .read-mess a { margin-left: 10px; text-decoration: none; color: #78bc85; font-weight: 200; }
+.read-content .read-mess a:hover { color: #57ad68; }
+.read-content .read-mess a img { vertical-align: baseline; width: 5px; margin-left: 3px; }
+.read-content .read-data { color: #999; position: absolute; bottom: 15px; left: 13px; }
+.read-content .read-data em { font-style: normal; vertical-align: middle; margin: 0 7px; }
+
+.read-thumb { position: relative; width: 300px; height: 216px; overflow: hidden; float: right; }
+.read-thumb img { width: 100%; position: absolute; top: -44px; }
 
 /*# sourceMappingURL=main.css.map */
