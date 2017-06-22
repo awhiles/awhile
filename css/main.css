@@ -1,41 +1,42 @@
-/*
-Error: Invalid CSS after ">>>>>>> dev": expected "{", was ""
-        on line 199 of main.scss
+/* common top nav */
+.container { width: 1300px !important; padding: 0; }
 
-194:       width: 100%;
-195:     }
-196:   }
-197: }
-198: >>>>>>> dev
+.navbar { position: relative; width: 100%; min-width: 1300px; min-height: 90px; margin: 0 auto 0; background: rgba(255, 255, 255, 0.95); border: 1px solid transparent; -ms-box-shadow: 0 1px 4px 0 #ececec; -webkit-box-shadow: 0 1px 4px 0 #ececec; -moz-box-shadow: 0 1px 4px 0 #ececec; box-shadow: 0 1px 4px 0 #ececec; }
 
-Backtrace:
-main.scss:199
-D:/Toos/Ruby22-x64/lib/ruby/gems/2.2.0/gems/sass-3.4.24/lib/sass/scss/parser.rb:1207:in `expected'
-D:/Toos/Ruby22-x64/lib/ruby/gems/2.2.0/gems/sass-3.4.24/lib/sass/scss/parser.rb:1137:in `expected'
-D:/Toos/Ruby22-x64/lib/ruby/gems/2.2.0/gems/sass-3.4.24/lib/sass/scss/parser.rb:1132:in `tok!'
-D:/Toos/Ruby22-x64/lib/ruby/gems/2.2.0/gems/sass-3.4.24/lib/sass/scss/parser.rb:665:in `block'
-D:/Toos/Ruby22-x64/lib/ruby/gems/2.2.0/gems/sass-3.4.24/lib/sass/scss/parser.rb:658:in `ruleset'
-D:/Toos/Ruby22-x64/lib/ruby/gems/2.2.0/gems/sass-3.4.24/lib/sass/scss/parser.rb:684:in `block_child'
-D:/Toos/Ruby22-x64/lib/ruby/gems/2.2.0/gems/sass-3.4.24/lib/sass/scss/parser.rb:677:in `block_contents'
-D:/Toos/Ruby22-x64/lib/ruby/gems/2.2.0/gems/sass-3.4.24/lib/sass/scss/parser.rb:125:in `stylesheet'
-D:/Toos/Ruby22-x64/lib/ruby/gems/2.2.0/gems/sass-3.4.24/lib/sass/scss/parser.rb:41:in `parse'
-D:/Toos/Ruby22-x64/lib/ruby/gems/2.2.0/gems/sass-3.4.24/lib/sass/engine.rb:406:in `_to_tree'
-D:/Toos/Ruby22-x64/lib/ruby/gems/2.2.0/gems/sass-3.4.24/lib/sass/engine.rb:381:in `_render_with_sourcemap'
-D:/Toos/Ruby22-x64/lib/ruby/gems/2.2.0/gems/sass-3.4.24/lib/sass/engine.rb:298:in `render_with_sourcemap'
-D:/Toos/Ruby22-x64/lib/ruby/gems/2.2.0/gems/sass-3.4.24/lib/sass/plugin/compiler.rb:492:in `update_stylesheet'
-D:/Toos/Ruby22-x64/lib/ruby/gems/2.2.0/gems/sass-3.4.24/lib/sass/plugin/compiler.rb:215:in `block in update_stylesheets'
-D:/Toos/Ruby22-x64/lib/ruby/gems/2.2.0/gems/sass-3.4.24/lib/sass/plugin/compiler.rb:209:in `each'
-D:/Toos/Ruby22-x64/lib/ruby/gems/2.2.0/gems/sass-3.4.24/lib/sass/plugin/compiler.rb:209:in `update_stylesheets'
-D:/Toos/Ruby22-x64/lib/ruby/gems/2.2.0/gems/sass-3.4.24/lib/sass/plugin/compiler.rb:473:in `on_file_changed'
-D:/Toos/Ruby22-x64/lib/ruby/gems/2.2.0/gems/sass-3.4.24/lib/sass/plugin/compiler.rb:331:in `block in watch'
-D:/Toos/Ruby22-x64/lib/ruby/gems/2.2.0/gems/sass-3.4.24/vendor/listen/lib/listen/listener.rb:252:in `call'
-D:/Toos/Ruby22-x64/lib/ruby/gems/2.2.0/gems/sass-3.4.24/vendor/listen/lib/listen/listener.rb:252:in `on_change'
-D:/Toos/Ruby22-x64/lib/ruby/gems/2.2.0/gems/sass-3.4.24/vendor/listen/lib/listen/listener.rb:290:in `block in initialize_adapter'
-D:/Toos/Ruby22-x64/lib/ruby/gems/2.2.0/gems/sass-3.4.24/vendor/listen/lib/listen/adapters/polling.rb:48:in `call'
-D:/Toos/Ruby22-x64/lib/ruby/gems/2.2.0/gems/sass-3.4.24/vendor/listen/lib/listen/adapters/polling.rb:48:in `poll_changed_directories'
-D:/Toos/Ruby22-x64/lib/ruby/gems/2.2.0/gems/sass-3.4.24/vendor/listen/lib/listen/adapter.rb:299:in `block in start_poller'
-*/
-body:before {
-  white-space: pre;
-  font-family: monospace;
-  content: "Error: Invalid CSS after \">>>>>>> dev\": expected \"{\", was \"\"\A         on line 199 of main.scss\A \A 194:       width: 100%;\A 195:     }\A 196:   }\A 197: }\A 198: >>>>>>> dev"; }
+.navbar-nav { height: 90px; }
+.navbar-nav li { width: 100px; height: 90px; text-align: center; line-height: 90px; }
+.navbar-nav li a { color: #333; padding: 26px; margin-top: 9px; font-size: 16px; }
+.navbar-nav li a:hover, .navbar-nav li a:visited { background: #fff; }
+.navbar-nav li .editor { display: inline-block; cursor: pointer; width: 44px; height: 44px; border: 1px solid #57ad68; border-radius: 50%; vertical-align: middle; overflow: hidden; margin-right: 50px; }
+.navbar-nav li .editor .edit-con { display: inline-block; width: 38px; height: 38px; margin-left: 2px; margin-top: 2px; border-radius: 50%; text-align: center; background: -webkit-linear-gradient(left, rgba(101, 181, 117, 0.9), #55b668); }
+.navbar-nav li .editor .edit-con .edit { width: 19px; height: 20px; margin-bottom: 56px; margin-left: 2px; }
+.navbar-nav li.esp { margin-left: 390px; }
+.navbar-nav li.esp > div { width: 230px; }
+.navbar-nav li.esp a { padding: 17px !important; display: inline-block; text-decoration: none; font-size: 14px; line-height: 0; width: 126px; -ms-box-sizing: border-box; -webkit-box-sizing: border-box; -moz-box-sizing: border-box; box-sizing: border-box; text-align: center; border: 1px solid rgba(120, 188, 133, 0.5); -ms-border-radius: 25px; -webkit-border-radius: 25px; -moz-border-radius: 25px; border-radius: 25px; color: #57ad68; cursor: pointer; }
+.navbar-nav li.esp a:hover { border: none; color: #fff; background-color: #57ad68; -ms-transition: all 300ms linear; -webkit-transition: all 300ms linear; -moz-transition: all 300ms linear; transition: all 300ms linear; }
+.navbar-nav li.active { font-weight: bold; border-bottom: 3px solid #000000; }
+
+.navbar-header { height: 90px; }
+.navbar-header a { height: 90px; padding-left: 0; padding-right: 98px; margin: 0 !important; }
+.navbar-header a img { margin-top: 11px; }
+
+/* common footer nav */
+.footer { clear: both; height: 117px; min-width: 1300px; width: 100%; background-color: #1a1818; color: #666; font-size: 12px; }
+.footer .foot { width: 1300px; margin: auto; }
+.footer .foot .foot-logo { width: 100px; margin-top: 35px; }
+.footer .foot .foot-link { display: inline-block; vertical-align: top; height: 50px; margin-top: 42px; margin-left: 15px; }
+.footer .foot .foot-link ul { height: 25px; padding-left: 0; margin-bottom: 0; }
+.footer .foot .foot-link ul li { list-style: none; float: left; line-height: 25px; margin-right: 20px; text-align: left; }
+.footer .foot .foot-link p { margin: 0 !important; }
+.footer .foot .foot-icon { float: right; margin-top: 40px; }
+.footer .foot .foot-icon li { list-style: none; float: left; width: 44px; height: 44px; margin-right: 18px; }
+.footer .foot .foot-icon .footi1 { background: url(../img/foot-appH.png) no-repeat; background-size: 100%; }
+.footer .foot .foot-icon .footi2 { background: url(../img/foot-sinaH.png) no-repeat; background-size: 100%; }
+.footer .foot .foot-icon .footi3 { background: url(../img/foot-wechatH.png) no-repeat; background-size: 100%; }
+
+/* home newest */
+.newest { width: 960px; height: 480px; margin: 50px auto 150px; }
+.newest div { padding: 0; }
+.newest div img { width: 100%; }
+
+/*# sourceMappingURL=main.css.map */
