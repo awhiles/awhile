@@ -1,4 +1,2 @@
-##ignore this file##
-/target/
-.idea
-css/.sass-cache
+.idea/
+css/.sass-cache/
