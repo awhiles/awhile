@@ -20,13 +20,13 @@
 .navbar-header a { height: 90px; padding-left: 0; padding-right: 98px; margin: 0 !important; }
 .navbar-header a img { margin-top: 11px; }
 
-.footer { clear: both; height: 118px; min-width: 1200px; /* common footer nav */ }
-.footer .footer { clear: both; height: 117px; min-width: 1300px; width: 100%; background-color: #1a1818; color: #666; font-size: 12px; }
-.footer .footer .foot .foot-logo { width: 100px; margin-top: 35px; margin-right: 20px; }
-.footer .footer .foot .foot-link { display: inline-block; vertical-align: top; height: 50px; margin-top: 38px; }
-.footer .footer .foot .foot-link ul { height: 25px; padding-left: 0; margin-bottom: 0; }
-.footer .footer .foot .foot-link ul li { list-style: none; float: left; line-height: 25px; margin-right: 20px; text-align: left; }
-.footer .footer .foot .foot-link p { margin: 0 !important; }
+/* common footer nav */
+.footer { clear: both; height: 117px; min-width: 1300px; width: 100%; background-color: #1a1818; color: #666; font-size: 12px; }
+.footer .foot .foot-logo { width: 100px; margin-top: 35px; margin-right: 20px; }
+.footer .foot .foot-link { display: inline-block; vertical-align: top; height: 50px; margin-top: 38px; }
+.footer .foot .foot-link ul { height: 25px; padding-left: 0; margin-bottom: 0; }
+.footer .foot .foot-link ul li { list-style: none; float: left; line-height: 25px; margin-right: 20px; text-align: left; }
+.footer .foot .foot-link p { margin: 0 !important; }
 
 .foot { width: 1300px; margin: auto; }
 .foot .foot-logo { width: 100px; margin-top: 35px; }
