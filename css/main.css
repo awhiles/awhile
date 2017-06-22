@@ -1,19 +1,58 @@
-.container { width: 1200px !important; padding: 0; }
+.container {
+  width: 1200px !important;
+  padding: 0; }
 
-.navbar { position: relative; min-height: 90px; margin-bottom: 0 !important; border: 1px solid transparent; }
+.navbar {
+  position: relative;
+  min-height: 90px;
+  margin-bottom: 0 !important;
+  border: 1px solid transparent; }
 
-.navbar-nav { height: 90px; }
-.navbar-nav li { height: 90px; line-height: 90px; }
-.navbar-nav li a { color: #333; padding: 26px; margin-top: 9px; font-size: 16px; }
-.navbar-nav li .editor { display: inline-block; cursor: pointer; width: 44px; height: 44px; border: 1px solid #57ad68; border-radius: 50%; vertical-align: middle; overflow: hidden; }
-.navbar-nav li .editor .edit-con { display: inline-block; width: 38px; height: 38px; margin-left: 2px; margin-top: 2px; border-radius: 50%; text-align: center; background: -webkit-linear-gradient(left, rgba(101, 181, 117, 0.9), #55b668); }
-.navbar-nav li .editor .edit-con .edit { width: 19px; height: 20px; margin-bottom: 50px; }
-.navbar-nav li.esp { margin-left: 410px; }
-.navbar-nav li.active { border-bottom: 3px solid #000000; }
+.navbar-nav {
+  height: 90px; }
+  .navbar-nav li {
+    height: 90px;
+    line-height: 90px; }
+    .navbar-nav li a {
+      color: #333;
+      padding: 26px;
+      margin-top: 9px;
+      font-size: 16px; }
+    .navbar-nav li .editor {
+      display: inline-block;
+      cursor: pointer;
+      width: 44px;
+      height: 44px;
+      border: 1px solid #57ad68;
+      border-radius: 50%;
+      vertical-align: middle;
+      overflow: hidden; }
+      .navbar-nav li .editor .edit-con {
+        display: inline-block;
+        width: 38px;
+        height: 38px;
+        margin-left: 2px;
+        margin-top: 2px;
+        border-radius: 50%;
+        text-align: center;
+        background: -webkit-linear-gradient(left, rgba(101, 181, 117, 0.9), #55b668); }
+        .navbar-nav li .editor .edit-con .edit {
+          width: 19px;
+          height: 20px;
+          margin-bottom: 50px; }
+    .navbar-nav li.esp {
+      margin-left: 410px; }
+    .navbar-nav li.active {
+      border-bottom: 3px solid #000000; }
 
-.navbar-header { height: 90px; }
-.navbar-header a { height: 90px; padding-left: 0; padding-right: 98px; }
-.navbar-header a img { margin-top: 11px; }
+.navbar-header {
+  height: 90px; }
+  .navbar-header a {
+    height: 90px;
+    padding-left: 0;
+    padding-right: 98px; }
+    .navbar-header a img {
+      margin-top: 11px; }
 
 .footer {
   clear: both;
