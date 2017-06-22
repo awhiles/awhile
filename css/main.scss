@@ -178,7 +178,7 @@
   }
 }
 /* home newest */
-.newestAll,.homeReadAll{
+.newest-all,.home-read-all{
   width: 100%;
   min-width: 1300px;
 }
@@ -216,7 +216,7 @@
     }
   }
 }
-.readStatus,.radioStatus{
+.read-status,.radio-status{
   transition: all 0.5s;
   filter:alpha(opacity=0);
   -moz-opacity:0;
@@ -245,7 +245,7 @@
     font-size: 14px;
   }
 }
-.radioStatus{
+.radio-status{
   height: 100%;
   i{
     position: relative;
@@ -267,11 +267,11 @@
   }
 }
 /* home read */
-.homeRead{
+.home-read{
   width: 960px;
   margin: 0 auto 50px;
 }
-.homeTitle{
+.home-title{
   font-size: 15px;
   margin-bottom: 40px;
   i{
@@ -283,7 +283,7 @@
     background: #333333;
   }
 }
-.homeReadItem{
+.home-read-item{
   padding: 0;
   li{
     list-style: none;
