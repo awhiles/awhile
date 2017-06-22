@@ -83,6 +83,6 @@
 .read-content .read-data em { font-style: normal; vertical-align: middle; margin: 0 7px; }
 
 .read-thumb { position: relative; width: 300px; height: 216px; overflow: hidden; float: right; }
-.read-thumb img { width: 100%; position: absolute; top: -44px; }
+.read-thumb img { width: 100%; position: absolute; top: -44px; bottom: 50px; }
 
 /*# sourceMappingURL=main.css.map */
