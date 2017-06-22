@@ -43,7 +43,7 @@
 .foot-icon .footi3 { background: url(../img/foot-wechatH.png) no-repeat; background-size: 100%; }
 
 /* home newest */
-.newest-all, .home-read-all { width: 100%; min-width: 1300px; }
+.newest-all, .home-read-all, .home-ting-all { width: 100%; min-width: 1300px; }
 
 .newest { width: 960px; height: 480px; margin: 50px auto 150px; }
 .newest div { position: relative; padding: 0; overflow: hidden; }
@@ -61,7 +61,7 @@
 .radio-status span { display: block; text-align: center; }
 
 /* home read */
-.home-read { width: 960px; margin: 0 auto 50px; }
+.home-read, .home-ting { width: 960px; margin: 0 auto 50px; }
 
 .home-title { font-size: 15px; margin-bottom: 40px; }
 .home-title i { display: inline-block; width: 18px; height: 18px; margin-right: 7px; vertical-align: middle; background: #333333; }
