@@ -208,14 +208,14 @@
   }
 }
 /* home newest */
-.newest-all,.home-read-all,.home-ting-all{
+.newest-all,.home-read-all,.home-ting-all,.hot-pianker-all{
   width: 100%;
   min-width: 1300px;
 }
 .newest,.ting{
   width: 960px;
-  height: 480px;
-  margin: 50px auto 150px;
+  height: auto;
+  margin: 50px auto 70px;
   div{
     position: relative;
     padding: 0;
@@ -307,7 +307,7 @@
   }
 }
 /* home read */
-.home-read,.home-ting{
+.home-read,.home-ting,.home-hot{
   width: 960px;
   margin: 0 auto 50px;
 }
@@ -450,3 +450,4 @@
     left: 0;
   }
 }
+/* home hot pianker */
