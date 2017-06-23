@@ -181,7 +181,7 @@
   width: 100%;
   min-width: 1300px;
 }
-.newest{
+.newest,.ting{
   width: 960px;
   height: 480px;
   margin: 50px auto 150px;
@@ -259,10 +259,20 @@
     margin: 30% auto 0;
     background: url(../img/play-icon.png) no-repeat;
     background-size: 100%;
+    filter:alpha(opacity=0);
+    -moz-opacity:0;
+    -khtml-opacity: 0;
+    opacity: 0;
   }
   span{
     display: block;
     text-align: center;
+  }
+  &:hover em{
+    filter:alpha(opacity=60);
+    -moz-opacity:0.6;
+    -khtml-opacity: 0.6;
+    opacity: 0.6;
   }
 }
 /* home read */
@@ -369,5 +379,43 @@
     width: 100%;
     position: absolute;
     top: -44px;
+  }
+}
+/* home ting */
+.ting{
+  margin: 0;
+  .ting-box{
+    box-sizing: border-box;
+    border: 1px solid #e8e8e8;
+    margin: 0 10px;
+    width: 300px;
+    height: 420px;
+    background-color: #fff;
+    color: #333;
+    font-size: 12px;
+    font-weight: 200;
+  }
+  em{
+    margin: 37% auto 0;
+  }
+}
+.ting-content{
+  height: 120px;
+  width: 100%;
+  h3,p{
+    overflow: hidden;
+    text-overflow:ellipsis;
+    white-space: nowrap;
+    margin-left: 5%;
+    margin-right: 5%;
+  }
+  .read-data{
+    position: relative;
+    margin: 20px auto;
+    width: 94%;
+  }
+  .read-data{
+    bottom: 0;
+    left: 0;
   }
 }
