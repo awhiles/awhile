@@ -420,3 +420,63 @@
   }
 }
 /* home hot pianker */
+.hot-pianker-data{
+  width: 230px;
+  height: 235px;
+  margin-left: 13px;
+  background: url(../img/user-bg.png) no-repeat;
+  background-size: cover;
+  .data-left{
+    width: 80px;
+    display: inline-block;
+    text-align: center;
+    margin: 40px 0 0 10px;
+    a{
+      img{
+        width: 80px;
+        height: 80px;
+        -ms-border-radius: 50%;
+        -webkit-border-radius: 50%;
+        -moz-border-radius: 50%;
+        border-radius: 50%;
+      }
+    }
+    img{
+      width: 52px;
+      margin-top: 10px;
+    }
+  }
+  .data-rigth{
+    float: right;
+    width: 95px;
+    margin-top: 80px;
+    span{
+      color: #999;
+      font-size: 12px;
+      font-weight: lighter;
+      display: -webkit-box;
+      -webkit-box-orient: vertical;
+      -webkit-line-clamp: 2;
+      overflow: hidden;
+    }
+    a{
+      color: #333;
+      text-decoration: none;
+      &:hover{
+        color: #57ad68;
+      }
+      p{
+        overflow: hidden;
+        text-overflow:ellipsis;
+        white-space: nowrap;
+      }
+    }
+    i{
+      display: block;
+      margin-bottom: 5px;
+      width: 15px;
+      height: 1px;
+      background: #333;
+    }
+  }
+}
