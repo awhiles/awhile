@@ -89,7 +89,7 @@
 .ting-content { height: 120px; width: 100%; }
 .ting-content h3, .ting-content p { overflow: hidden; text-overflow: ellipsis; white-space: nowrap; margin-left: 5%; margin-right: 5%; }
 .ting-content .read-data { position: relative; margin: 20px auto; width: 94%; }
-.ting-content .read-data { bottom: 0; left: 0; color: red; }
+.ting-content .read-data { bottom: 0; left: 0; }
 
 /* home hot pianker */
 
