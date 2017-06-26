@@ -100,80 +100,21 @@
   margin-top: 11px; }
 
 /* common footer nav */
-.footer {
-  clear: both;
-  height: 117px;
-  min-width: 1300px;
-  width: 100%;
-  background-color: #1a1818;
-  color: #666;
-  font-size: 12px; }
-.footer .foot .foot-logo {
-  width: 100px;
-  margin-top: 35px;
-  margin-right: 20px; }
-.footer .foot .foot-link {
-  display: inline-block;
-  vertical-align: top;
-  height: 50px;
-  margin-top: 38px; }
-.footer .foot .foot-link ul {
-  height: 25px;
-  padding-left: 0;
-  margin-bottom: 0; }
-.footer .foot .foot-link ul li {
-  list-style: none;
-  float: left;
-  line-height: 25px;
-  margin-right: 20px;
-  text-align: left; }
-.footer .foot .foot-link p {
-  margin: 0 !important; }
+.footer { clear: both; height: 117px; min-width: 1300px; width: 100%; background-color: #1a1818; color: #666; font-size: 12px; }
 
-.foot {
-  width: 1300px;
-  margin: auto; }
-.foot .foot-logo {
-  width: 100px;
-  margin-top: 35px; }
+.foot { width: 1300px; margin: auto; }
+.foot .foot-logo { width: 100px; margin-top: 35px; }
 
-.foot-link {
-  display: inline-block;
-  vertical-align: top;
-  height: 50px;
-  margin-top: 42px;
-  margin-left: 15px; }
-.foot-link ul {
-  height: 25px;
-  padding-left: 0;
-  margin-bottom: 0; }
-.foot-link ul li {
-  list-style: none;
-  float: left;
-  line-height: 25px;
-  margin-right: 20px;
-  text-align: left; }
-.foot-link p {
-  margin: 0 !important; }
+.foot-link { display: inline-block; vertical-align: top; height: 50px; margin-top: 42px; margin-left: 15px; }
+.foot-link ul { height: 25px; padding-left: 0; margin-bottom: 0; }
+.foot-link ul li { list-style: none; float: left; line-height: 25px; margin-right: 20px; text-align: left; }
+.foot-link p { margin: 0 !important; }
 
-.foot-icon {
-  float: right;
-  margin-top: 40px; }
-.foot-icon li {
-  list-style: none;
-  float: left;
-  width: 44px;
-  height: 44px;
-  margin-right: 18px; }
-.foot-icon .footi1 {
-  background: url(../img/foot-appH.png) no-repeat;
-  background-size: 100%; }
-.foot-icon .footi2 {
-  background: url(../img/foot-sinaH.png) no-repeat;
-  background-size: 100%; }
-.foot-icon .footi3 {
-  background: url(../img/foot-wechatH.png) no-repeat;
-  background-size: 100%; }
+.foot-icon { float: right; margin-top: 40px; }
+.foot-icon li { list-style: none; float: left; width: 44px; height: 44px; margin-right: 18px; }
+.foot-icon .footi1 { background: url(../img/foot-appH.png) no-repeat; background-size: 100%; }
+.foot-icon .footi2 { background: url(../img/foot-sinaH.png) no-repeat; background-size: 100%; }
+.foot-icon .footi3 { background: url(../img/foot-wechatH.png) no-repeat; background-size: 100%; }
 
 /* home newest */
 .newest-all, .home-read-all, .home-ting-all, .hot-pianker-all {
