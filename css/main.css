@@ -161,6 +161,7 @@ html, body {
     background: url(../img/foot-wechatH.png) no-repeat;
     background-size: 100%; }
 
+/* common pianke banner */
 /* home newest */
 .newest-all, .home-read-all, .home-ting-all, .hot-pianker-all, .home-more-all {
   width: 100%;
