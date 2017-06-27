@@ -162,8 +162,39 @@ html, body {
     background-size: 100%; }
 
 /* common pianke banner */
+.pianke-banner {
+  width: 960px;
+  height: 400px;
+  margin: 50px auto 150px;
+  background: #cccccc; }
+  .pianke-banner .banner-btn {
+    display: inline-block;
+    width: 24px;
+    height: 100%;
+    cursor: pointer;
+    background-repeat: no-repeat;
+    background-size: 24px;
+    background-position: center; }
+  .pianke-banner .btn-left {
+    background-image: url(../img/left-btn.png);
+    float: left; }
+  .pianke-banner .btn-right {
+    background-image: url(../img/right-btn.png);
+    float: right; }
+  .pianke-banner .banner-box {
+    position: relative;
+    margin-left: 59px; }
+    .pianke-banner .banner-box ul li {
+      position: absolute;
+      left: 0;
+      top: 0;
+      list-style: none; }
+      .pianke-banner .banner-box ul li img {
+        width: 100%;
+        height: 100%; }
+
 /* home newest */
-.newest-all, .home-read-all, .home-ting-all, .hot-pianker-all, .home-more-all {
+.newest-all, .home-read-all, .home-ting-all, .hot-pianker-all, .home-more-all, .read {
   width: 100%;
   min-width: 1300px; }
 
