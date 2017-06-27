@@ -24,7 +24,7 @@ angular.module('app')
                 url:'/read',
                 views:{
                     'main':{
-                        // controller:'readCtrl',
+                        controller:'readCtrl',
                         templateUrl:'views/read/read.html'
                     }
                 }
