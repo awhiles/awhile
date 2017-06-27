@@ -314,7 +314,7 @@ html, body {
     box-sizing: content-box;
   }
 }
-.read-content{
+.read-content,.card-read{
   position: relative;
   height: 216px;
   width: 640px;
@@ -325,6 +325,7 @@ html, body {
     color: #333;
     font-size: 24px;
     text-decoration: none;
+    line-height: 35px;
     &:hover{
       color: #57ad68;
     }
@@ -338,10 +339,13 @@ html, body {
   }
   .read-mess{
     width: 98%;
-    display: -webkit-box;
-    -webkit-box-orient: vertical;
-    -webkit-line-clamp: 2;
-    overflow: hidden;
+    span{
+      display: -webkit-box;
+      -webkit-box-orient: vertical;
+      -webkit-line-clamp: 2;
+      overflow: hidden;
+      margin-bottom: 7px;
+    }
     i{
       display: block;
       width: 30px;
@@ -349,19 +353,25 @@ html, body {
       background: #333;
       margin: 10px 0;
     }
-    a{
-      margin-left: 10px;
-      text-decoration: none;
-      color: #78bc85;
-      font-weight: 200;
-      &:hover{
-        color: #57ad68;
-      }
-      img{
-        vertical-align: baseline;
-        width: 5px;
-        margin-left: 3px;
-      }
+  }
+  /*.read-mess{
+    position: relative;
+    .more-btn{
+      position: absolute;
+      right: 10px;
+    }
+  }*/
+  a{
+    text-decoration: none;
+    color: #78bc85;
+    font-weight: 200;
+    &:hover{
+      color: #57ad68;
+    }
+    img{
+      vertical-align: baseline;
+      width: 5px;
+      margin-left: 3px;
     }
   }
   .read-data{
@@ -396,7 +406,7 @@ html, body {
     border: 1px solid #e8e8e8;
     margin: 0 10px;
     width: 300px;
-    height: 420px;
+    height: 430px;
     background-color: #fff;
     color: #333;
     font-size: 12px;
@@ -543,12 +553,22 @@ html, body {
     border: 1px solid #e8e8e8;
     float: left;
     margin: 6px;
+    &:hover{
+      -ms-box-shadow: 0 6px 20px 0 #e8e8e8;
+      -webkit-box-shadow: 0 6px 20px 0 #e8e8e8;
+      -moz-box-shadow: 0 6px 20px 0 #e8e8e8;
+      box-shadow: 0 6px 20px 0 #e8e8e8;
+    }
     img{
       width: 100%;
       height: 290px;
     }
     .card-item{
       .card-ting-title,.user-sign,.card-user-info{
+        overflow: hidden;
+        text-overflow: ellipsis;
+        white-space: nowrap;
+        margin-right: 10px;
         a{
           color: #333;
           font-size: 18px;
@@ -636,6 +656,23 @@ html, body {
       .card-ting-title{
         margin-top: 20px;
       }
+      .card-read{
+        width: auto;
+        height: auto;
+        margin-bottom: 15px;
+        img{
+          vertical-align: baseline;
+          width: 5px;
+          height: 10px;
+          margin-left: 3px;
+        }
+        span{
+          display: -webkit-box;
+          -webkit-box-orient: vertical;
+          -webkit-line-clamp: 4;
+          overflow: hidden;
+        }
+      }
     }
     .card-pic{
       display: inline-block;
@@ -662,6 +699,10 @@ html, body {
       }
     }
   }
+}
+.home-data-bottom{
+  clear: both;
+  height: 50px;
 }
 
 
