@@ -1152,6 +1152,58 @@ html, body {
 
 .client {
   margin-top: -20px; }
+  .client .ios-btn, .client .android-btn, .client .client-ma {
+    display: inline-block;
+    vertical-align: bottom; }
+  .client .ios-btn, .client .android-btn {
+    display: inline-block;
+    border-radius: 30px;
+    background: #58c36d;
+    color: #fff !important;
+    text-decoration: none;
+    font-size: 15px;
+    height: 46px;
+    width: 144px;
+    margin-top: 10px; }
+    .client .ios-btn:hover, .client .android-btn:hover {
+      opacity: .9; }
+  .client .ios-btn {
+    padding: 10px 20px; }
+    .client .ios-btn i {
+      width: 20px !important;
+      height: 25px !important;
+      display: inline-block;
+      vertical-align: sub;
+      background: url("../img/client-ios.png");
+      background-size: 100%;
+      margin-right: 10px; }
+  .client .android-btn {
+    padding: 10px 10px;
+    margin-left: 10px;
+    margin-right: 10px; }
+    .client .android-btn i {
+      width: 22px !important;
+      height: 25px !important;
+      display: inline-block;
+      vertical-align: sub;
+      background: url("../img/client-andorid.png");
+      background-size: 100%;
+      margin-right: 10px; }
+  .client .client-ma {
+    width: 47px;
+    height: 46px;
+    position: relative;
+    background: url("../img/client-code.png");
+    background-size: cover; }
+    .client .client-ma img {
+      width: 137px;
+      height: 137px;
+      position: absolute;
+      bottom: 0;
+      left: 54px;
+      display: none; }
+    .client .client-ma:hover img {
+      display: block; }
   .client .client-top {
     height: 410px;
     background: url("../img/client-bg.png") no-repeat;
@@ -1172,16 +1224,71 @@ html, body {
         font-size: 14px;
         font-weight: 400;
         opacity: .45; }
-      .client .client-top > div > div a, .client .client-top > div > div > div {
-        display: inline-block;
-        vertical-align: sub; }
-      .client .client-top > div > div a {
+  .client .client-intro {
+    margin-top: 90px; }
+    .client .client-intro .line-bg {
+      background: url("../img/clitent-title-bg.png") no-repeat top left;
+      background-size: 87px;
+      padding-top: 10px;
+      padding-left: 57px; }
+      .client .client-intro .line-bg h2 {
+        font-size: 80px; }
+        .client .client-intro .line-bg h2 span {
+          font-size: 30px;
+          font-weight: bold; }
+      .client .client-intro .line-bg p {
+        font-size: 16px;
+        color: #9b9b9b;
+        font-weight: lighter;
+        margin-bottom: 0;
+        margin-left: 90px; }
+    .client .client-intro .white-black {
+      width: 441px;
+      margin: auto;
+      height: 180px; }
+    .client .client-intro .client-one {
+      width: 841px;
+      height: 672px;
+      margin: 75px auto 140px;
+      display: block; }
+    .client .client-intro .live, .client .client-intro .community, .client .client-intro .life-hall {
+      width: 841px;
+      margin: auto;
+      height: 583px; }
+      .client .client-intro .live img, .client .client-intro .community img, .client .client-intro .life-hall img {
+        width: 360px;
         display: inline-block; }
-      .client .client-top > div > div .ios-btn i {
-        width: 25px !important;
-        height: 25px !important;
-        display: block;
-        background: url("../img/client-ios.png");
-        background-size: 100%; }
+      .client .client-intro .live div, .client .client-intro .community div, .client .client-intro .life-hall div {
+        display: inline-block;
+        width: 395px;
+        height: 180px; }
+    .client .client-intro .live div, .client .client-intro .life-hall div {
+      margin-left: 82px; }
+    .client .client-intro .community {
+      margin-top: 130px;
+      margin-bottom: 130px; }
+      .client .client-intro .community div {
+        margin-right: 82px; }
+    .client .client-intro .life-hall div h3 {
+      font-size: 30px;
+      font-weight: bold;
+      color: #333;
+      margin-top: 10px !important; }
+    .client .client-intro .life-hall div p {
+      margin-left: 0 !important;
+      margin-top: 20px !important; }
+    .client .client-intro .client-bottom {
+      background: url(../img/client-bottom-bg.png) no-repeat center top;
+      padding-top: 138px;
+      margin-top: 100px; }
+      .client .client-intro .client-bottom p {
+        font-size: 14px;
+        font-weight: 200;
+        text-align: center; }
+      .client .client-intro .client-bottom > div {
+        width: 363px;
+        margin: auto;
+        margin-top: 38px;
+        margin-bottom: 130px; }
 
 /*# sourceMappingURL=main.css.map */

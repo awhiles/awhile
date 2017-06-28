@@ -1425,6 +1425,70 @@ html, body {
 //client
 .client{
   margin-top: -20px;
+  .ios-btn,.android-btn,.client-ma{
+    display: inline-block;
+    vertical-align: bottom;
+  }
+  .ios-btn,.android-btn{
+    display: inline-block;
+    border-radius: 30px;
+    background: #58c36d;
+    color:#fff !important;
+    text-decoration: none;
+    font-size: 15px;
+    height: 46px;
+    width: 144px;
+    margin-top: 10px;
+    &:hover{
+      opacity: .9;
+    }
+  }
+  .ios-btn{
+    padding: 10px 20px;
+    i{
+      width:20px !important;
+      height:25px !important;
+      display: inline-block;
+      vertical-align: sub;
+      background: url('../img/client-ios.png');
+      background-size: 100%;
+      margin-right: 10px;
+    }
+  }
+  .android-btn{
+    padding:10px 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+    i{
+      width:22px !important;
+      height:25px !important;
+      display: inline-block;
+      vertical-align: sub;
+      background: url('../img/client-andorid.png');
+      background-size: 100%;
+      margin-right: 10px;
+    }
+  }
+  .client-ma{
+    width:47px;
+    height:46px;
+    position: relative;
+    background: url('../img/client-code.png');
+    background-size: cover;
+    img{
+      width:137px;
+      height:137px;
+      position: absolute;
+      bottom: 0;
+      left:54px;
+      display: none;
+    }
+    &:hover{
+      img{
+        display: block;
+      }
+    }
+  }
   .client-top{
     height:410px;
     background: url('../img/client-bg.png') no-repeat;
@@ -1447,24 +1511,96 @@ html, body {
         font-weight: 400;
         opacity: .45;
       }
-      >div{
-        a,>div{
-          display: inline-block;
-          vertical-align: sub;
-        }
-        a{
-          display: inline-block;
-        }
-        .ios-btn{
-          i{
-            width:25px !important;
-            height:25px !important;
-            display: block;
-            background: url('../img/client-ios.png');
-            background-size: 100%;
-          }
-        }
+    }
+  }
+.client-intro{
+  margin-top: 90px;
+  .line-bg{
+    background: url('../img/clitent-title-bg.png') no-repeat top left;
+    background-size: 87px;
+    padding-top: 10px;
+    padding-left: 57px;
+    h2{
+      font-size: 80px;
+      span{
+        font-size: 30px;
+        font-weight: bold;
+      }
+    }
+    p{
+      font-size: 16px;
+      color:#9b9b9b;
+      font-weight:lighter;
+      margin-bottom: 0;
+      margin-left: 90px;
+    }
+  }
+  .white-black{
+    width:441px;
+    margin: auto;
+    height:180px;
+  }
+  .client-one{
+    width:841px;
+    height:672px;
+    margin:75px auto 140px;
+    display: block;
+  }
+  .live,.community,.life-hall{
+    width:841px;
+    margin: auto;
+    height:583px;
+    img{
+      width:360px;
+      display:inline-block;
+    }
+    div{
+      display: inline-block;
+      width:395px;
+      height:180px;
+    }
+  }
+  .live,.life-hall{
+    div{
+      margin-left: 82px;
+    }
+  }
+  .community{
+    margin-top: 130px;
+    margin-bottom: 130px;
+    div{
+      margin-right: 82px;
+    }
+  }
+  .life-hall{
+    div{
+     h3{
+       font-size: 30px;
+       font-weight: bold;
+       color:#333;
+       margin-top: 10px !important;
+     }
+      p{
+        margin-left: 0 !important;
+        margin-top: 20px !important;
       }
     }
   }
+  .client-bottom{
+    background: url(../img/client-bottom-bg.png)no-repeat center top;
+    padding-top: 138px;
+    margin-top: 100px;
+    p{
+      font-size: 14px;
+      font-weight: 200;
+      text-align: center;
+    }
+    >div{
+      width:363px;
+      margin: auto;
+      margin-top: 38px;
+      margin-bottom: 130px;
+    }
+  }
+}
 }
