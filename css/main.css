@@ -163,10 +163,9 @@ html, body {
 
 /* common pianke banner */
 .pianke-banner {
-  width: 960px;
+  width: 1077px;
   height: 400px;
-  margin: 50px auto 150px;
-  background: #cccccc; }
+  margin: 50px auto 70px; }
   .pianke-banner .banner-btn {
     display: inline-block;
     width: 24px;
