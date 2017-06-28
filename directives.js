@@ -22,8 +22,10 @@ angular.module('app')
             scope: {
                 bannerData: '='
             },
-            link:function (scope,el) {
-
+            link:function (scope,el,attr) {
+                $(el).on('click',function(){
+                    scope.datafn1();
+                })
             }
         }
     });
