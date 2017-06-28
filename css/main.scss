@@ -1419,3 +1419,52 @@ html, body {
   }
 }
 
+
+
+
+//client
+.client{
+  margin-top: -20px;
+  .client-top{
+    height:410px;
+    background: url('../img/client-bg.png') no-repeat;
+    background-size: cover;
+    >div{
+      width:1030px;
+      min-width: 1030px;
+      margin:auto;
+      padding-top: 110px;
+      h1{
+        font-size: 50px;
+        font-weight: bold;
+        color:rgb(51,51,51);
+        margin-top: 10px !important;
+        margin-bottom: 5px;
+      }
+      p{
+        color: #31343d;
+        font-size: 14px;
+        font-weight: 400;
+        opacity: .45;
+      }
+      >div{
+        a,>div{
+          display: inline-block;
+          vertical-align: sub;
+        }
+        a{
+          display: inline-block;
+        }
+        .ios-btn{
+          i{
+            width:25px !important;
+            height:25px !important;
+            display: block;
+            background: url('../img/client-ios.png');
+            background-size: 100%;
+          }
+        }
+      }
+    }
+  }
+}

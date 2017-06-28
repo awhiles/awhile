@@ -1150,4 +1150,38 @@ html, body {
           font-size: 12px;
           margin-top: 6px; }
 
+.client {
+  margin-top: -20px; }
+  .client .client-top {
+    height: 410px;
+    background: url("../img/client-bg.png") no-repeat;
+    background-size: cover; }
+    .client .client-top > div {
+      width: 1030px;
+      min-width: 1030px;
+      margin: auto;
+      padding-top: 110px; }
+      .client .client-top > div h1 {
+        font-size: 50px;
+        font-weight: bold;
+        color: #333333;
+        margin-top: 10px !important;
+        margin-bottom: 5px; }
+      .client .client-top > div p {
+        color: #31343d;
+        font-size: 14px;
+        font-weight: 400;
+        opacity: .45; }
+      .client .client-top > div > div a, .client .client-top > div > div > div {
+        display: inline-block;
+        vertical-align: sub; }
+      .client .client-top > div > div a {
+        display: inline-block; }
+      .client .client-top > div > div .ios-btn i {
+        width: 25px !important;
+        height: 25px !important;
+        display: block;
+        background: url("../img/client-ios.png");
+        background-size: 100%; }
+
 /*# sourceMappingURL=main.css.map */
