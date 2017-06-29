@@ -18,7 +18,7 @@
                                     <img class="edit" src="img/edit-icon.png">
                                 </div>
                             </div>
-                            <a>登录 / 注册</a>
+                            <a ng-click="openLogin(loginS)">登录 / 注册</a>
                         </div>
                     </li>
                 </ul>
@@ -26,3 +26,4 @@
         </div>
     </nav>
 </div>
+<div ng-include="'template/login.html'" ng-if="loginS"></div>

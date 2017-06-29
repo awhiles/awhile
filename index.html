@@ -16,9 +16,10 @@
     <script type="text/javascript" src="lib/angular/angular-ui-router.min.js"></script>
     <script type="text/javascript" src="router.js"></script>
     <script type="text/javascript" src="js/controller/read.js"></script>
+    <script type="text/javascript" src="js/controller/main.js"></script>
     <script type="text/javascript" src="directives.js"></script>
 </head>
-<body>
+<body ng-controller="mainCtrl">
 <div ng-include="'template/header.html'"></div>
 <div ui-view="main">
 </div>

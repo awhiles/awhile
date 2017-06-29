@@ -1291,4 +1291,113 @@ html, body {
         margin-top: 38px;
         margin-bottom: 130px; }
 
+.login {
+  top: 0;
+  bottom: 0;
+  width: 100%;
+  overflow: scroll;
+  position: fixed;
+  z-index: 1001;
+  height: 100%;
+  background-color: rgba(255, 255, 255, 0.9); }
+  .login i {
+    cursor: pointer;
+    background-image: url(../img/close-login.png);
+    background-size: 20px;
+    height: 20px;
+    width: 20px;
+    float: right;
+    background-repeat: no-repeat;
+    margin-right: 25px;
+    margin-top: 25px;
+    opacity: 1; }
+  .login .login-content {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-top: -345px;
+    margin-left: -250px;
+    width: 500px;
+    height: 690px;
+    background: url(../img/login-bg.png) no-repeat;
+    background-size: cover; }
+    .login .login-content .login-title {
+      text-align: center;
+      padding-top: 146px;
+      color: #231916;
+      font-weight: 200;
+      font-size: 16px; }
+    .login .login-content > div > p {
+      text-align: center;
+      margin-top: 70px; }
+      .login .login-content > div > p a {
+        display: inline-block;
+        font-size: 16px;
+        color: #999;
+        border-bottom: 2px solid transparent;
+        text-decoration: none;
+        padding-bottom: 10px; }
+        .login .login-content > div > p a.active {
+          color: #333;
+          border-bottom: 2px solid #333; }
+      .login .login-content > div > p .register {
+        margin-left: 70px; }
+    .login .login-content > div .register-con {
+      display: none; }
+    .login .login-content > div form {
+      text-align: center; }
+      .login .login-content > div form input {
+        box-sizing: border-box;
+        width: 270px;
+        height: 33px;
+        outline: none;
+        font-weight: 300;
+        font-size: 16px;
+        border: 1px solid transparent;
+        color: #333;
+        border-bottom-color: #e8e8e8;
+        margin-top: 25px;
+        display: inline-block; }
+      .login .login-content > div form input::-webkit-input-placeholder {
+        /* WebKit browsers */
+        color: #ccc;
+        padding-left: 12px; }
+      .login .login-content > div form input:-moz-placeholder {
+        /* Mozilla Firefox 4 to 18 */
+        color: #ccc;
+        padding-left: 12px; }
+      .login .login-content > div form input::-moz-placeholder {
+        /* Mozilla Firefox 19+ */
+        color: #ccc;
+        padding-left: 12px; }
+      .login .login-content > div form input:-ms-input-placeholder {
+        /* Internet Explorer 10+ */
+        color: #ccc;
+        padding-left: 12px; }
+      .login .login-content > div form .forget {
+        display: block;
+        width: 270px;
+        margin: 10px auto 38px;
+        text-align: right;
+        font-size: 12px;
+        color: #ccc;
+        text-decoration: none; }
+        .login .login-content > div form .forget:hover {
+          color: #57ad68; }
+      .login .login-content > div form .login-btn {
+        display: inline-block;
+        width: 172px;
+        font-size: 16px;
+        line-height: 44px;
+        text-decoration: none;
+        color: #57ad68;
+        border: 1px solid #57ad68;
+        border-radius: 25px;
+        background: #fff;
+        transition: all 1s; }
+        .login .login-content > div form .login-btn:hover {
+          color: #fff;
+          border: 1px solid #57ad68;
+          background: #57ad68; }
+
 /*# sourceMappingURL=main.css.map */
