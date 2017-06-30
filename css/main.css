@@ -1329,19 +1329,21 @@ html, body {
       font-size: 16px; }
     .login .login-content .con-top > p {
       text-align: center;
-      margin-top: 70px; }
+      margin-top: 70px;
+      /*.register{
+        margin-left:70px !important;
+      }*/ }
       .login .login-content .con-top > p a {
         display: inline-block;
         font-size: 16px;
         color: #999;
         border-bottom: 2px solid transparent;
         text-decoration: none;
-        padding-bottom: 10px; }
+        padding-bottom: 10px;
+        margin: 0 35px; }
         .login .login-content .con-top > p a.active {
           color: #333;
           border-bottom: 2px solid #333; }
-      .login .login-content .con-top > p .register {
-        margin-left: 70px !important; }
     .login .login-content .con-top .register-con {
       display: none; }
       .login .login-content .con-top .register-con > div {
@@ -1349,7 +1351,8 @@ html, body {
         background-size: 134px;
         width: 134px;
         height: 212px;
-        margin: auto; }
+        margin: auto;
+        margin-top: 30px; }
         .login .login-content .con-top .register-con > div img {
           width: 92px;
           margin-top: 71px;
