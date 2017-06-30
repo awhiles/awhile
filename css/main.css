@@ -1327,26 +1327,36 @@ html, body {
       color: #231916;
       font-weight: 200;
       font-size: 16px; }
-    .login .login-content > div > p {
+    .login .login-content .con-top > p {
       text-align: center;
       margin-top: 70px; }
-      .login .login-content > div > p a {
+      .login .login-content .con-top > p a {
         display: inline-block;
         font-size: 16px;
         color: #999;
         border-bottom: 2px solid transparent;
         text-decoration: none;
         padding-bottom: 10px; }
-        .login .login-content > div > p a.active {
+        .login .login-content .con-top > p a.active {
           color: #333;
           border-bottom: 2px solid #333; }
-      .login .login-content > div > p .register {
-        margin-left: 70px; }
-    .login .login-content > div .register-con {
+      .login .login-content .con-top > p .register {
+        margin-left: 70px !important; }
+    .login .login-content .con-top .register-con {
       display: none; }
-    .login .login-content > div form {
+      .login .login-content .con-top .register-con > div {
+        background: url(../img/wechat-bg.png) no-repeat center;
+        background-size: 134px;
+        width: 134px;
+        height: 212px;
+        margin: auto; }
+        .login .login-content .con-top .register-con > div img {
+          width: 92px;
+          margin-top: 71px;
+          margin-left: 23px; }
+    .login .login-content .con-top form {
       text-align: center; }
-      .login .login-content > div form input {
+      .login .login-content .con-top form input {
         box-sizing: border-box;
         width: 270px;
         height: 33px;
@@ -1358,23 +1368,23 @@ html, body {
         border-bottom-color: #e8e8e8;
         margin-top: 25px;
         display: inline-block; }
-      .login .login-content > div form input::-webkit-input-placeholder {
+      .login .login-content .con-top form input::-webkit-input-placeholder {
         /* WebKit browsers */
         color: #ccc;
         padding-left: 12px; }
-      .login .login-content > div form input:-moz-placeholder {
+      .login .login-content .con-top form input:-moz-placeholder {
         /* Mozilla Firefox 4 to 18 */
         color: #ccc;
         padding-left: 12px; }
-      .login .login-content > div form input::-moz-placeholder {
+      .login .login-content .con-top form input::-moz-placeholder {
         /* Mozilla Firefox 19+ */
         color: #ccc;
         padding-left: 12px; }
-      .login .login-content > div form input:-ms-input-placeholder {
+      .login .login-content .con-top form input:-ms-input-placeholder {
         /* Internet Explorer 10+ */
         color: #ccc;
         padding-left: 12px; }
-      .login .login-content > div form .forget {
+      .login .login-content .con-top form .forget {
         display: block;
         width: 270px;
         margin: 10px auto 38px;
@@ -1382,9 +1392,9 @@ html, body {
         font-size: 12px;
         color: #ccc;
         text-decoration: none; }
-        .login .login-content > div form .forget:hover {
+        .login .login-content .con-top form .forget:hover {
           color: #57ad68; }
-      .login .login-content > div form .login-btn {
+      .login .login-content .con-top form .login-btn {
         display: inline-block;
         width: 172px;
         font-size: 16px;
@@ -1395,9 +1405,57 @@ html, body {
         border-radius: 25px;
         background: #fff;
         transition: all 1s; }
-        .login .login-content > div form .login-btn:hover {
+        .login .login-content .con-top form .login-btn:hover {
           color: #fff;
           border: 1px solid #57ad68;
           background: #57ad68; }
+    .login .login-content .login-others {
+      width: 400px;
+      height: 103px;
+      border-top: 1px solid #f2f2f2;
+      margin: 30px auto 0; }
+      .login .login-content .login-others > p {
+        color: #ccc;
+        font-size: 12px;
+        text-align: center;
+        margin: 15px auto 20px; }
+      .login .login-content .login-others ul {
+        padding-left: 90px; }
+        .login .login-content .login-others ul li {
+          float: left;
+          list-style: none;
+          width: 44px; }
+          .login .login-content .login-others ul li a {
+            width: 44px;
+            height: 44px;
+            display: inline-block; }
+          .login .login-content .login-others ul li:nth-child(1) a {
+            background: url(../img/foot-sinaH.png);
+            background-size: cover; }
+          .login .login-content .login-others ul li:nth-child(1):hover a {
+            background: url(../img/share-sina.png);
+            background-size: cover; }
+          .login .login-content .login-others ul li:nth-child(2) {
+            margin: 0 12px; }
+            .login .login-content .login-others ul li:nth-child(2) a {
+              background: url(../img/foot-wechatH.png);
+              background-size: cover; }
+            .login .login-content .login-others ul li:nth-child(2):hover a {
+              background: url(../img/share-wechat.png);
+              background-size: cover; }
+          .login .login-content .login-others ul li:nth-child(3) {
+            margin-right: 12px; }
+            .login .login-content .login-others ul li:nth-child(3) a {
+              background: url(../img/qq.png);
+              background-size: cover; }
+            .login .login-content .login-others ul li:nth-child(3):hover a {
+              background: url(../img/share-qq.png);
+              background-size: cover; }
+          .login .login-content .login-others ul li:nth-child(4) a {
+            background: url(../img/dou.png);
+            background-size: cover; }
+          .login .login-content .login-others ul li:nth-child(4):hover a {
+            background: url(../img/share-dou.png);
+            background-size: cover; }
 
 /*# sourceMappingURL=main.css.map */

@@ -1645,7 +1645,7 @@ html, body {
       font-weight: 200;
       font-size: 16px;
     }
-    >div{
+    .con-top{
       >p{
         text-align: center;
         margin-top: 70px;
@@ -1662,11 +1662,23 @@ html, body {
           }
         }
         .register{
-          margin-left:70px;
+          margin-left:70px !important;
         }
       }
       .register-con{
         display: none;
+        >div{
+          background: url(../img/wechat-bg.png) no-repeat center;
+          background-size: 134px;
+          width:134px;
+          height:212px;
+          margin: auto;
+          img{
+            width:92px;
+            margin-top: 71px;
+            margin-left: 23px;
+          }
+        }
       }
 
       form{
@@ -1727,6 +1739,81 @@ html, body {
             color:#fff;
             border:1px solid #57ad68;
             background: #57ad68;
+          }
+        }
+      }
+    }
+    .login-others{
+      width:400px;
+      height:103px;
+      border-top:1px solid #f2f2f2;
+      margin: 30px auto 0;
+      >p{
+        color:#ccc;
+        font-size: 12px;
+        text-align: center;
+        margin: 15px auto 20px;
+      }
+      ul{
+        padding-left:90px;
+        li{
+          float: left;
+          list-style: none;
+          width:44px;
+          a{
+            width:44px;
+            height:44px;
+            display: inline-block;
+          }
+          &:nth-child(1){
+            a{
+              background: url(../img/foot-sinaH.png);
+              background-size: cover;
+            }
+            &:hover{
+              a{
+                background: url(../img/share-sina.png);
+                background-size: cover;
+              }
+            }
+          }
+          &:nth-child(2){
+            margin: 0 12px;
+            a{
+              background: url(../img/foot-wechatH.png);
+              background-size: cover;
+            }
+            &:hover{
+              a{
+                background: url(../img/share-wechat.png);
+                background-size: cover;
+              }
+            }
+          }
+          &:nth-child(3){
+            margin-right: 12px;
+            a{
+              background: url(../img/qq.png);
+              background-size: cover;
+            }
+            &:hover{
+              a{
+                background: url(../img/share-qq.png);
+                background-size: cover;
+              }
+            }
+          }
+          &:nth-child(4){
+            a{
+              background: url(../img/dou.png);
+              background-size: cover;
+            }
+            &:hover{
+              a{
+                background: url(../img/share-dou.png);
+                background-size: cover;
+              }
+            }
           }
         }
       }
