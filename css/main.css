@@ -1461,4 +1461,75 @@ html, body {
             background: url(../img/share-dou.png);
             background-size: cover; }
 
+.debris .timeline {
+  width: 1200px;
+  min-width: 1200px;
+  margin: 61px auto 65px; }
+  .debris .timeline .now-date {
+    display: inline-block;
+    vertical-align: top;
+    width: 220px;
+    height: 220px;
+    background: url(../img/date-bg.png) no-repeat center;
+    background-size: 172px;
+    position: relative; }
+    .debris .timeline .now-date span:nth-child(1) {
+      display: inline-block;
+      width: 123px;
+      height: 132px;
+      font-size: 100px !important;
+      font-weight: bold;
+      top: -33px;
+      right: 75px;
+      position: absolute;
+      font-family: "PingFang SC";
+      color: #333; }
+    .debris .timeline .now-date span:nth-child(2) {
+      font-size: 20px;
+      position: absolute;
+      top: 119px;
+      right: 75px; }
+  .debris .timeline .publish-content {
+    display: inline-block;
+    width: 930px;
+    height: 220px;
+    background: #fff;
+    padding: 25px 42px 19px;
+    float: right; }
+    .debris .timeline .publish-content textarea {
+      width: 846px;
+      height: 123px;
+      resize: none;
+      font-size: 15px;
+      font-weight: 300;
+      overflow: auto;
+      border: 1px solid #e8e8e8;
+      padding: 16px 16px 5px;
+      border-radius: 4px; }
+    .debris .timeline .publish-content textarea[placeholder] {
+      color: #ccc; }
+    .debris .timeline .publish-content > div .timeline-type {
+      display: inline-block;
+      width: 82px;
+      height: 26px;
+      border: 1.5px solid #78bc85;
+      margin: 4px 32px 4px 0;
+      border-radius: 6px;
+      line-height: 20px;
+      padding: 2px 2px;
+      box-sizing: border-box;
+      font-size: 12px; }
+      .debris .timeline .publish-content > div .timeline-type span {
+        display: inline-block;
+        width: 50%;
+        height: 100%;
+        text-align: center;
+        font-size: 12px;
+        color: #333; }
+        .debris .timeline .publish-content > div .timeline-type span.active {
+          background: #57ad68;
+          color: #fff;
+          padding: 2px 2px;
+          border-radius: 4px; }
+
 /*# sourceMappingURL=main.css.map */

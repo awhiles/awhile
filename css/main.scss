@@ -1823,3 +1823,92 @@ html, body {
   }
 }
 
+
+//debris
+.debris{
+  .timeline{
+    width:1200px;
+    min-width: 1200px;
+    margin:61px auto 65px;
+    .now-date{
+      display: inline-block;
+      vertical-align: top;
+      width:220px;
+      height:220px;
+      background: url(../img/date-bg.png) no-repeat center;
+      background-size: 172px;
+      position: relative;
+      span{
+        &:nth-child(1){
+          display: inline-block;
+          width:123px;
+          height:132px;
+          font-size: 100px !important;
+          font-weight: bold;
+          top:-33px;
+          right:75px;
+          position: absolute;
+          font-family: "PingFang SC";
+          color:#333;
+        }
+        &:nth-child(2){
+          font-size: 20px;
+          position: absolute;
+          top:119px;
+          right: 75px;
+        }
+      }
+    }
+    .publish-content{
+      display: inline-block;
+      width:930px;
+      height:220px;
+      background: #fff;
+      padding: 25px 42px 19px;
+      float: right;
+      textarea{
+        width:846px;
+        height:123px;
+        resize: none;
+        font-size: 15px;
+        font-weight: 300;
+        overflow: auto;
+        border: 1px solid #e8e8e8;
+        padding: 16px 16px 5px;
+        border-radius: 4px;
+      }
+      textarea[placeholder]{
+        color: #ccc;
+      }
+      >div{
+        .timeline-type{
+          display: inline-block;
+          width: 82px;
+          height: 26px;
+          border: 1.5px solid #78bc85;
+          margin: 4px 32px 4px 0;
+          border-radius: 6px;
+          line-height: 20px;
+          padding: 2px 2px;
+          box-sizing: border-box;
+          font-size: 12px;
+          span{
+            display: inline-block;
+            width:50%;
+            height:100%;
+            text-align: center;
+            font-size: 12px;
+            color:#333;
+            &.active{
+              background: #57ad68;
+              color:#fff;
+              padding: 2px 2px ;
+              border-radius: 4px;
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
