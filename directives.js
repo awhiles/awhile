@@ -57,4 +57,46 @@ angular.module('app')
                 }
             }
         }
+    })
+    // 导航
+    .directive('piangkeNav',function(){
+        return {
+            restrict: 'AE',
+            replace: true,
+            link:function (scope,el) {
+                var nav = el,
+                    t = 0,
+                    p = 0;
+                $(window).scroll(function(){
+                    p = $(this).scrollTop();
+                    if(t<=p){
+                        nav.css({'top':'-93px','transition':'all 0.3s'});
+                    }else{
+                        nav.css({'top':0,'transition':'all 0.3s'});
+                    }
+                    setTimeout(function(){t = p;},0);
+                });
+            }
+        }
+    })
+    // 返回顶部
+    .directive('goBack',function(){
+        return {
+            restrict: 'AE',
+            replace: true,
+            link:function (scope,el) {
+                var rightBtnAr = el;
+                $(document).scroll(function(){
+                    var oscrollHeight = $(document).scrollTop();
+                    if(oscrollHeight>500){
+                        rightBtnAr.fadeIn();
+                    }else{
+                        rightBtnAr.fadeOut();
+                    }
+                });
+                rightBtnAr.click(function(){
+                    $("body").stop(true,true).animate({"scrollTop":0},0)
+                })
+            }
+        }
     });
