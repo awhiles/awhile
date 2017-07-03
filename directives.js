@@ -2,6 +2,7 @@
  * Created by Weetao on 2017-06-21.
  */
 angular.module('app')
+    // 选项卡切换
     .directive('switchover',function(){
         return {
             restrict: 'AE',
@@ -14,6 +15,7 @@ angular.module('app')
             }
         }
     })
+    // 轮播
     .directive('piangkeBanner',function(){
         return {
             restrict: 'AE',
