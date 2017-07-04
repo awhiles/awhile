@@ -5,8 +5,10 @@
         $scope.loginS=false;
         $scope.openLogin=function(){
             $scope.loginS=true;
+            $('html').css({'overflow':'hidden'});
         };
         $scope.closeLogin=function(){
             $scope.loginS=false;
+            $('html').css({'overflow':'auto'});
         }
     }]);
